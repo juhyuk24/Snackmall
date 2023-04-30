@@ -1,0 +1,61 @@
+
+.title-sub5depth{
+    font-weight:400;
+    font-size:25px;
+    line-height:52px;
+    color:#333;
+    font-weight:500;
+    padding:64px 0 4px 0
+}
+.common-hrTable-1 table tr:last-child td, .common-hrTable-1 table tr:last-child th {
+    border-bottom: 1px solid #bec0c2;
+}
+.common-hrTable-1 table th:last-child{
+    border-right:0
+}
+.common-hrTable-1 table th {
+    padding: 16px 0 13px 0;
+    text-align: center;
+    border-bottom: solid 1px #bec0c2;
+    background: #f2f2f2;
+    font-weight: 400;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+}
+.common-hrTable-1 {
+    position: relative;
+}
+.common-hrTable-1 table {
+    width: 100%;
+}
+.common-hrTable-1:before {
+    display: block;
+    width: 100%;
+    content: '';
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background-color: #333;
+}
+.common-hrTable-1 table td {
+    padding: 9px 10px 8px 30px;
+    text-align: left;
+    border-bottom: solid 1px #e3e4e5;
+    background: #fff;
+    font-size: 16px;
+    color: #666;
+    border-right: 1px solid #e3e4e5;
+    line-height: 28px;
+    font-weight: 400;
+}
+.common-hrTable-1 .text-alignCenter {
+    text-align: center;
+    padding-left: 10px;
+}
+caption, legend {
+    font-size: 0;
+    line-height: 0;
+    text-indent: -5000px;
+}
